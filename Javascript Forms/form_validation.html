@@ -1,8 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+
+        <script type="application/javascript">
+            function checkdata()
+            {
+                document.getElementById("name");
+                document.getElementById("email");
+
+                var username = document.getElementById("name");
+                var emailid = document.getElementById("email");
+                //check if username is blank
+                if (username.value==""){
+
+                    alert("Please Enter a Name");
+                    username.focus();
+                    return false;
+                }
+                //check if email is blank
+                if (emailid.value==""){
+                    alert("Please enter an email");
+                    emailid.focus();
+                    return false;
+                }
+                //If all is well return true.
+                return true;
+            }
+        </script>
         <title>Contact Details</title>
     </head>
+
     <body>
         <h2>Enter your contact details:</h2> <br>
         <form id="form1">
@@ -15,5 +43,6 @@
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
         </form>
+
     </body>
 </html>
