@@ -9,10 +9,10 @@
         <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="range" id="rate" min="1" max="20" value="10.25" step="0.25">  <br/>
+        Amount <input type="number"  id="principal" class="borderRadius"  <br/>
+        Rate <input type="range" id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()">  <br/>
         <span id="rate_val">10.25</span>%
-        No. of Years <input type="number"  id="years"> 
+        No. of Years <input type="number"  id="years" class="borderRadius"> 
         <datalist id="all_years">
             <option value="1">1</option>
             <option value="2">2</option>
