@@ -190,7 +190,7 @@ h2 {
 
 .all_recommendations {
   display: flex;
-  align-items: center;
+  align-items: left;
   margin-left: 1in;
   flex-direction: row;
   flex-flow: wrap;
@@ -200,7 +200,7 @@ h2 {
 .recommendation {
   font-style: italic;
   text-align: left;
-  width: fit-content;
+  width: 460px;
   padding: 1rem;
   background-color: #fff;
   border-radius: 11px;
@@ -209,7 +209,7 @@ h2 {
   margin: 10px;
   border:1px solid gray;
   font-size: 18px;
-  height:fit-content;
+  height:150px;
 }
 
 .recommendation span {
