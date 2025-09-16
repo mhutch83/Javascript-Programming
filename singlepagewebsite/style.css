@@ -200,7 +200,7 @@ h2 {
 .recommendation {
   font-style: italic;
   text-align: left;
-  width: 21.875rem;
+  width: fit-content;
   padding: 1rem;
   background-color: #fff;
   border-radius: 11px;
@@ -209,7 +209,7 @@ h2 {
   margin: 10px;
   border:1px solid gray;
   font-size: 18px;
-  height:150px
+  height:fit-content;
 }
 
 .recommendation span {
